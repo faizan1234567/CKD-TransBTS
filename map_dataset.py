@@ -62,6 +62,7 @@ if __name__ == "__main__":
             target_path = os.path.join(destination_folder, folder_name)
 
             shutil.copytree(source_path, target_path)
+            
        print()
        print('copy complete!')
 
